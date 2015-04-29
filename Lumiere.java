@@ -10,12 +10,12 @@ import java.util.regex.*;
 		
 		public enum State
 		{
-		  PROGRAM,
+		  PROGRAM, 
 		  STMT_LIST,
 		  STMT,
 		  STMTID,
 		  STMTREAD,
-		  EXPR,
+		  EXPR, 
 		  TERM_TAIL,
 		  TERM,
 		  FACT_TAIL,
